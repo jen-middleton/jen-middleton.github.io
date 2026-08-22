@@ -1,0 +1,40 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: homepage
+    label: Homepage content
+    type: file
+    path: content.json
+    fields:
+      - name: hero_eyebrow
+        label: Top small heading
+        type: string
+      - name: headline1
+        label: Headline (first part, dark)
+        type: string
+      - name: headline_accent
+        label: Headline (highlighted blue part)
+        type: string
+      - name: hero_sub
+        label: Intro sentence under the headline
+        type: text
+      - name: stats
+        label: Hero stats (the four numbers up top)
+        type: object
+        list: true
+        fields:
+          - name: number
+            label: Number
+            type: string
+          - name: label
+            label: Description
+            type: string
+      - name: about_lede
+        label: About section opening line
+        type: text
+      - name: about_bullets
+        label: About bullet points
+        type: string
+        list: true

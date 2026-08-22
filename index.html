@@ -1002,9 +1002,9 @@ nav{background:var(--navy) !important;border-bottom:0 !important;box-shadow:0 1p
 <!-- HERO (new-site content) -->
 <div id="hero" class="section">
   <div class="container">
-    <div class="hero-eyebrow">Marketing &amp; Communications Specialist</div>
-    <h1 class="hero-h1">Content that gets found and <span class="nv">earns trust.</span></h1>
-    <p class="hero-sub">A marketing and communications specialist for healthcare and nonprofit brands, working across SEO/GEO, social, video, and content operations.</p>
+    <div class="hero-eyebrow" data-cms="hero_eyebrow">Marketing &amp; Communications Specialist</div>
+    <h1 class="hero-h1"><span data-cms="headline1">Content that gets found and</span> <span class="nv" data-cms="headline_accent">earns trust.</span></h1>
+    <p class="hero-sub" data-cms="hero_sub">A marketing and communications specialist for healthcare and nonprofit brands, working across SEO/GEO, social, video, and content operations.</p>
     <div class="hero-metrics">
       <div><div class="hm-n hl">+70.5%</div><div class="hm-l">Search impressions, first 4 months at DaVita</div></div>
       <div><div class="hm-n">+100%</div><div class="hm-l">Social link clicks, first quarter at HRCA</div></div>
@@ -1028,7 +1028,7 @@ nav{background:var(--navy) !important;border-bottom:0 !important;box-shadow:0 1p
     <div class="about-bio-block">
       <div class="section-label">About</div>
       <h2 class="about-h2">Strategy-led communications for mission-driven work</h2>
-      <p class="about-lede">Hi, I'm Jen, a marketing and communications specialist focused on content that actually moves people.</p>
+      <p class="about-lede" data-cms="about_lede">Hi, I'm Jen, a marketing and communications specialist focused on content that actually moves people.</p>
       <ul class="about-bullets2">
         <li>Film &amp; Media Studies background (Colorado College) applied to strategic content marketing</li>
         <li>Specializing in healthcare and nonprofit communications, where getting the message right has real stakes</li>
@@ -1519,5 +1519,31 @@ nav{background:var(--navy) !important;border-bottom:0 !important;box-shadow:0 1p
   });
 </script>
 
+<script>
+(function(){
+  fetch('content.json?v=' + Date.now()).then(function(r){return r.ok ? r.json() : null;}).then(function(c){
+    if(!c) return;
+    function set(sel, val){ var el=document.querySelector(sel); if(el && val!=null && val!=='') el.textContent=val; }
+    set('[data-cms="hero_eyebrow"]', c.hero_eyebrow);
+    set('[data-cms="headline1"]', c.headline1);
+    set('[data-cms="headline_accent"]', c.headline_accent);
+    set('[data-cms="hero_sub"]', c.hero_sub);
+    set('[data-cms="about_lede"]', c.about_lede);
+    if(Array.isArray(c.stats)){
+      document.querySelectorAll('.hero-metrics > div').forEach(function(d,i){
+        var s=c.stats[i]; if(!s) return;
+        var n=d.querySelector('.hm-n'), l=d.querySelector('.hm-l');
+        if(n && s.number!=null && s.number!=='') n.textContent=s.number;
+        if(l && s.label!=null && s.label!=='') l.textContent=s.label;
+      });
+    }
+    if(Array.isArray(c.about_bullets)){
+      document.querySelectorAll('.about-bullets2 li').forEach(function(li,i){
+        if(c.about_bullets[i]!=null && c.about_bullets[i]!=='') li.textContent=c.about_bullets[i];
+      });
+    }
+  }).catch(function(){});
+})();
+</script>
 </body>
 </html>

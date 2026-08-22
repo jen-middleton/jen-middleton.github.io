@@ -1,0 +1,19 @@
+{
+  "hero_eyebrow": "Marketing & Communications Specialist",
+  "headline1": "Content that gets found and",
+  "headline_accent": "earns trust.",
+  "hero_sub": "A marketing and communications specialist for healthcare and nonprofit brands, working across SEO/GEO, social, video, and content operations.",
+  "stats": [
+    { "number": "+70.5%", "label": "Search impressions, first 4 months at DaVita" },
+    { "number": "+100%", "label": "Social link clicks, first quarter at HRCA" },
+    { "number": "+150%", "label": "Web traffic, HRCA Beer Festival campaign" },
+    { "number": "1.8M+", "label": "Views on a top-performing reel" }
+  ],
+  "about_lede": "Hi, I'm Jen, a marketing and communications specialist focused on content that actually moves people.",
+  "about_bullets": [
+    "Film & Media Studies background (Colorado College) applied to strategic content marketing",
+    "Specializing in healthcare and nonprofit communications, where getting the message right has real stakes",
+    "Currently at DaVita Kidney Care, working across SEO/GEO, content operations, and CMS",
+    "Outside of work: Colorado hiker, ocean diver, thrifter, cat lover, and home sewer"
+  ]
+}
