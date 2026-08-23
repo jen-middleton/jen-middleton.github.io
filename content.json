@@ -1,19 +1,130 @@
 {
-  "hero_eyebrow": "Marketing & Communications Specialist",
-  "headline1": "Content that gets found and",
-  "headline_accent": "earns trust.",
-  "hero_sub": "A marketing and communications specialist for healthcare and nonprofit brands, working across SEO/GEO, social, video, and content operations.",
-  "stats": [
-    { "number": "+70.5%", "label": "Search impressions, first 4 months at DaVita" },
-    { "number": "+100%", "label": "Social link clicks, first quarter at HRCA" },
-    { "number": "+150%", "label": "Web traffic, HRCA Beer Festival campaign" },
-    { "number": "1.8M+", "label": "Views on a top-performing reel" }
-  ],
-  "about_lede": "Hi, I'm Jen, a marketing and communications specialist focused on content that actually moves people.",
-  "about_bullets": [
-    "Film & Media Studies background (Colorado College) applied to strategic content marketing",
-    "Specializing in healthcare and nonprofit communications, where getting the message right has real stakes",
-    "Currently at DaVita Kidney Care, working across SEO/GEO, content operations, and CMS",
-    "Outside of work: Colorado hiker, ocean diver, thrifter, cat lover, and home sewer"
-  ]
+  "hero": {
+    "f0000737e": "A marketing and communications specialist for healthcare and nonprofit brands, working across SEO/GEO, social, video, and content operations.",
+    "ffb3b76e1": "Marketing & Communications Specialist",
+    "f874e3113": "Content that gets found and",
+    "f49249316": "earns trust.",
+    "f019af368": "+70.5%",
+    "f32517987": "Search impressions, first 4 months at DaVita",
+    "fad589f25": "+100%",
+    "f0c1e9ac3": "Social link clicks, first quarter at HRCA",
+    "f432ee569": "+150%",
+    "fcdac1dd7": "Web traffic, HRCA Beer Festival campaign",
+    "f73559d53": "1.8M+",
+    "f1f6d847e": "Views on a top-performing reel"
+  },
+  "about": {
+    "f003d386b": "Strategy-led communications for mission-driven work",
+    "f2af2c09e": "Hi, I'm Jen, a marketing and communications specialist focused on content that actually moves people.",
+    "f3f88fccd": "Film & Media Studies background (Colorado College) applied to strategic content marketing",
+    "f2d4e4090": "Specializing in healthcare and nonprofit communications, where getting the message right has real stakes",
+    "f3fae5ac5": "Currently at DaVita Kidney Care, working across SEO/GEO, content operations, and CMS",
+    "f2c84b526": "Outside of work: Colorado hiker, ocean diver, thrifter, cat lover, and home sewer",
+    "f8f7f4c1c": "About"
+  },
+  "seo": {
+    "f266f3d20": "SEO / GEO",
+    "ff3be1da1": "Driving organic visibility through data-informed content strategy, technical optimization, and generative engine optimization. Real results, measurable growth.",
+    "f3de2ed21": "Keyword research & content mapping",
+    "f996036b7": "On-page SEO & metadata optimization",
+    "f709bc833": "Generative engine optimization (GEO / AIO)",
+    "f05747798": "Search Console analysis & reporting",
+    "f5f94ceb8": "Content audits & performance tracking",
+    "f68b21b16": "Google Search Console — DaVita Kidney Care",
+    "f8de081e8": "Strategy & Execution",
+    "f12f997f9": "57.6M",
+    "f2b17b23c": "▲ 70.5% vs. prior 4 months",
+    "f680b4202": "Impressions — first 4 months at DaVita",
+    "f53f9bd5a": "913K",
+    "fdab78563": "▲ 36% vs. prior 4 months",
+    "f47a1c91d": "Clicks — first 4 months at DaVita"
+  },
+  "social": {
+    "f3ce446e5": "Social Media",
+    "fa7da244a": "Strategy-led social content across platforms, from awareness campaigns to community-building series. Mission-driven work designed to connect with real people.",
+    "fcc217e84": "\"Let the Music Shine\" -- National Donate Life Month campaign cross-promoting a curated Spotify playlist to build awareness and community engagement around organ donation.",
+    "f4debc6a6": "Scroll-stopping creative for HRCA's adult coached swim program. Bold typography paired with action photography to drive sign-ups ahead of summer.",
+    "f9db6bb13": "Spirit Week series for National Donate Life Month. Daily themed prompts encouraged followers to participate and share, driving organic reach and story views.",
+    "fab52b919": "Activity guide promo video planned, filmed, and edited to highlight HRCA's seasonal programming and drive community awareness.",
+    "f0df2d00e": "Summer camps promotional video produced end-to-end. Optimized for Facebook and Instagram to drive camp enrollment.",
+    "f9c0b6be3": "Content & Community",
+    "f9099087d": "Instagram Post - Donor Alliance",
+    "f52f320ca": "Facebook Post - HRCA",
+    "f95d51895": "Instagram Story - Donor Alliance",
+    "f100c4586": "Social Video — HRCA",
+    "f100c4586_2": "Social Video — HRCA",
+    "fe3ece525": "Top-Performing Posts",
+    "f41662c04": "Facebook Reels — Donor Alliance",
+    "fee3bfafb": "A living organ donor meeting the child recipient of his donation.",
+    "f5192e0a3": "TikTok — Donor Alliance",
+    "f2417b945": "A girl who received a heart transplant, filmed walking after surgery.",
+    "fb6e850f9": "TikTok — @leighhfilms",
+    "f3cf795f4": "Sunset videography on personal creative account.",
+    "f6036e4a5": "TikTok — @jen.ocean.therapy",
+    "fe82fe9da": "\"My top 5 horror movies\" trend, reimagined for scuba diving.",
+    "fb4efde9e": "Instagram — @donatelifeco",
+    "f8b39ecc0": "A family meeting their son's kidney recipient.",
+    "fd712f560": "Instagram — @mavthesiberiancat",
+    "f6c563bd5": "Reel about a cat who is athletic yet impossibly clumsy -- relatable for cat owners."
+  },
+  "blog": {
+    "fc3d5e792": "Blog & Editorial",
+    "f362b21ad": "Long-form content that builds trust, drives organic traffic, and puts the human story at the center. Written to rank and to resonate.",
+    "fe91fcd22": "An Inspirational Story of Hope: Joe Kovarik's Heart Transplant",
+    "f0e91d246": "Will Doctors Still Save My Life If I'm a Registered Organ Donor?",
+    "f7160d434": "Screenwrecked — Pop Culture Blog",
+    "f6aec67fc": "A self-built pop culture website created to develop hands-on AI skills: building and managing the site, using AI for research, content outlines, and SEO optimization. Screenwrecked covers TV, film, and streaming across quick takes and long-form deep dives, applying the same content strategy principles I use professionally to a topic I genuinely love.",
+    "fc463d5d5": "Writing & Storytelling",
+    "f9d11b9a7": "Donor Alliance",
+    "f9d11b9a7_2": "Donor Alliance",
+    "f0cd2d3af": "Passion Project"
+  },
+  "video": {
+    "f566b9660": "Video & Photography",
+    "f529adb91": "I directed, scripted, and filmed these productions for Donor Alliance, with post-production supported by a freelance editor. Click any video to watch.",
+    "fb59bf688": "Production & Visual"
+  },
+  "cms": {
+    "f2b9e4678": "CMS Management",
+    "f7109be50": "Hands-on experience managing content across enterprise CMS platforms. From page builds to content governance and cross-functional coordination.",
+    "f8412add1": "Building content operations from the ground up",
+    "f7823a580": "Maintained 21 websites at DaVita.com across a complex enterprise environment",
+    "fd8fdbd30": "Built content operations frameworks from the ground up, with no existing processes to build on",
+    "fa8d4dbe2": "Managed stakeholder relationships and coordinated cross-functional content approvals",
+    "f9b5efef2": "Improved turnaround on quick-request updates by establishing repeatable workflows",
+    "fb34de5b4": "HRCA web page overview",
+    "fe4140b55": "Technical & Operations",
+    "f3a7bc245": "Web Production"
+  },
+  "email": {
+    "f6e113fb4": "Email Marketing",
+    "f4e567805": "Designed and deployed email campaigns through Constant Contact for Highlands Ranch Community Association, reaching community members across programs, events, and civic initiatives.",
+    "fc49dbf05": "Promotional email for Music Together and Piano Pals programs. Benefit-led copy and a two-column layout designed to drive class sign-ups and inform families about programming options.",
+    "fc669d6e9": "Civic engagement email for the 2025 Delegate Election. Designed to inform homeowners and motivate participation in community governance with clear calls to action and key election dates.",
+    "fcf948ca3": "Communications",
+    "fb43d4ecb": "Email Campaign — HRCA Arts",
+    "fa67e9262": "Email Campaign — HRCA"
+  },
+  "campaign": {
+    "f37af4e08": "Highlands Ranch Beer Festival",
+    "f3e949e15": "An integrated multi-channel campaign spanning email, organic social, and paid digital advertising, built to generate awareness, drive ticket sales, and bring the community to Civic Green Park.",
+    "f2c39d042": "Early promotions launched through e-blasts and social media, building momentum in the weeks leading up to the event. A paid digital ad campaign served as the primary traffic driver to the event page.",
+    "f1ea0d9cd": "Email e-blasts to HRCA subscriber list",
+    "fbdbcc688": "Organic social media content across platforms",
+    "faf43f31b": "Paid digital advertising",
+    "ffa4691ac": "Website traffic -- Highlands Ranch Beer Festival (May 2025)",
+    "f7892c793": "Campaign Spotlight",
+    "f4d851f03": "150%+",
+    "f6f5df434": "Web Traffic Increase",
+    "fe3de2f94": "1,000+",
+    "f8113f76a": "Clicks Generated"
+  },
+  "resume_cta": {
+    "f9b7fe5d5": "Want to work together?",
+    "faf6d588f": "Download my resume or reach out directly. I'm always excited to connect with fellow creatives and explore new opportunities.",
+    "f6d5d57d9": "Get In Touch"
+  },
+  "footer": {
+    "f46a4607c": "Jen — Marketing & Communications Specialist"
+  }
 }

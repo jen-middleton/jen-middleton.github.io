@@ -8,33 +8,365 @@ content:
     type: file
     path: content.json
     fields:
-      - name: hero_eyebrow
-        label: Top small heading
-        type: string
-      - name: headline1
-        label: Headline (first part, dark)
-        type: string
-      - name: headline_accent
-        label: Headline (highlighted blue part)
-        type: string
-      - name: hero_sub
-        label: Intro sentence under the headline
-        type: text
-      - name: stats
-        label: Hero stats (the four numbers up top)
+      - name: hero
+        label: "Hero (top of page)"
         type: object
-        list: true
         fields:
-          - name: number
-            label: Number
+          - name: f0000737e
+            label: "A marketing and communications specialist for health..."
+            type: text
+          - name: ffb3b76e1
+            label: "Marketing & Communications Specialist"
             type: string
-          - name: label
-            label: Description
+          - name: f874e3113
+            label: "Content that gets found and"
             type: string
-      - name: about_lede
-        label: About section opening line
-        type: text
-      - name: about_bullets
-        label: About bullet points
-        type: string
-        list: true
+          - name: f49249316
+            label: "earns trust."
+            type: string
+          - name: f019af368
+            label: "+70.5%"
+            type: string
+          - name: f32517987
+            label: "Search impressions, first 4 months at DaVita"
+            type: string
+          - name: fad589f25
+            label: "+100%"
+            type: string
+          - name: f0c1e9ac3
+            label: "Social link clicks, first quarter at HRCA"
+            type: string
+          - name: f432ee569
+            label: "+150%"
+            type: string
+          - name: fcdac1dd7
+            label: "Web traffic, HRCA Beer Festival campaign"
+            type: string
+          - name: f73559d53
+            label: "1.8M+"
+            type: string
+          - name: f1f6d847e
+            label: "Views on a top-performing reel"
+            type: string
+      - name: about
+        label: "About"
+        type: object
+        fields:
+          - name: f003d386b
+            label: "Strategy-led communications for mission-driven work"
+            type: text
+          - name: f2af2c09e
+            label: "Hi, I'm Jen, a marketing and communications speciali..."
+            type: text
+          - name: f3f88fccd
+            label: "Film & Media Studies background (Colorado College) a..."
+            type: text
+          - name: f2d4e4090
+            label: "Specializing in healthcare and nonprofit communicati..."
+            type: text
+          - name: f3fae5ac5
+            label: "Currently at DaVita Kidney Care, working across SEO/..."
+            type: text
+          - name: f2c84b526
+            label: "Outside of work: Colorado hiker, ocean diver, thrift..."
+            type: text
+          - name: f8f7f4c1c
+            label: "About"
+            type: string
+      - name: seo
+        label: "SEO / GEO"
+        type: object
+        fields:
+          - name: f266f3d20
+            label: "SEO / GEO"
+            type: string
+          - name: ff3be1da1
+            label: "Driving organic visibility through data-informed con..."
+            type: text
+          - name: f3de2ed21
+            label: "Keyword research & content mapping"
+            type: string
+          - name: f996036b7
+            label: "On-page SEO & metadata optimization"
+            type: string
+          - name: f709bc833
+            label: "Generative engine optimization (GEO / AIO)"
+            type: string
+          - name: f05747798
+            label: "Search Console analysis & reporting"
+            type: string
+          - name: f5f94ceb8
+            label: "Content audits & performance tracking"
+            type: string
+          - name: f68b21b16
+            label: "Google Search Console — DaVita Kidney Care"
+            type: string
+          - name: f8de081e8
+            label: "Strategy & Execution"
+            type: string
+          - name: f12f997f9
+            label: "57.6M"
+            type: string
+          - name: f2b17b23c
+            label: "▲ 70.5% vs. prior 4 months"
+            type: string
+          - name: f680b4202
+            label: "Impressions — first 4 months at DaVita"
+            type: string
+          - name: f53f9bd5a
+            label: "913K"
+            type: string
+          - name: fdab78563
+            label: "▲ 36% vs. prior 4 months"
+            type: string
+          - name: f47a1c91d
+            label: "Clicks — first 4 months at DaVita"
+            type: string
+      - name: social
+        label: "Social Media"
+        type: object
+        fields:
+          - name: f3ce446e5
+            label: "Social Media"
+            type: string
+          - name: fa7da244a
+            label: "Strategy-led social content across platforms, from a..."
+            type: text
+          - name: fcc217e84
+            label: "\"Let the Music Shine\" -- National Donate Life Month ..."
+            type: text
+          - name: f4debc6a6
+            label: "Scroll-stopping creative for HRCA's adult coached sw..."
+            type: text
+          - name: f9db6bb13
+            label: "Spirit Week series for National Donate Life Month. D..."
+            type: text
+          - name: fab52b919
+            label: "Activity guide promo video planned, filmed, and edit..."
+            type: text
+          - name: f0df2d00e
+            label: "Summer camps promotional video produced end-to-end. ..."
+            type: text
+          - name: f9c0b6be3
+            label: "Content & Community"
+            type: string
+          - name: f9099087d
+            label: "Instagram Post - Donor Alliance"
+            type: string
+          - name: f52f320ca
+            label: "Facebook Post - HRCA"
+            type: string
+          - name: f95d51895
+            label: "Instagram Story - Donor Alliance"
+            type: string
+          - name: f100c4586
+            label: "Social Video — HRCA"
+            type: string
+          - name: f100c4586_2
+            label: "Social Video — HRCA"
+            type: string
+          - name: fe3ece525
+            label: "Top-Performing Posts"
+            type: string
+          - name: f41662c04
+            label: "Facebook Reels — Donor Alliance"
+            type: string
+          - name: fee3bfafb
+            label: "A living organ donor meeting the child recipient of ..."
+            type: text
+          - name: f5192e0a3
+            label: "TikTok — Donor Alliance"
+            type: string
+          - name: f2417b945
+            label: "A girl who received a heart transplant, filmed walki..."
+            type: text
+          - name: fb6e850f9
+            label: "TikTok — @leighhfilms"
+            type: string
+          - name: f3cf795f4
+            label: "Sunset videography on personal creative account."
+            type: text
+          - name: f6036e4a5
+            label: "TikTok — @jen.ocean.therapy"
+            type: string
+          - name: fe82fe9da
+            label: "\"My top 5 horror movies\" trend, reimagined for scuba..."
+            type: text
+          - name: fb4efde9e
+            label: "Instagram — @donatelifeco"
+            type: string
+          - name: f8b39ecc0
+            label: "A family meeting their son's kidney recipient."
+            type: text
+          - name: fd712f560
+            label: "Instagram — @mavthesiberiancat"
+            type: string
+          - name: f6c563bd5
+            label: "Reel about a cat who is athletic yet impossibly clum..."
+            type: text
+      - name: blog
+        label: "Blog & Editorial"
+        type: object
+        fields:
+          - name: fc3d5e792
+            label: "Blog & Editorial"
+            type: string
+          - name: f362b21ad
+            label: "Long-form content that builds trust, drives organic ..."
+            type: text
+          - name: fe91fcd22
+            label: "An Inspirational Story of Hope: Joe Kovarik's Heart ..."
+            type: text
+          - name: f0e91d246
+            label: "Will Doctors Still Save My Life If I'm a Registered ..."
+            type: text
+          - name: f7160d434
+            label: "Screenwrecked — Pop Culture Blog"
+            type: string
+          - name: f6aec67fc
+            label: "A self-built pop culture website created to develop ..."
+            type: text
+          - name: fc463d5d5
+            label: "Writing & Storytelling"
+            type: string
+          - name: f9d11b9a7
+            label: "Donor Alliance"
+            type: string
+          - name: f9d11b9a7_2
+            label: "Donor Alliance"
+            type: string
+          - name: f0cd2d3af
+            label: "Passion Project"
+            type: string
+      - name: video
+        label: "Video & Photography"
+        type: object
+        fields:
+          - name: f566b9660
+            label: "Video & Photography"
+            type: string
+          - name: f529adb91
+            label: "I directed, scripted, and filmed these productions f..."
+            type: text
+          - name: fb59bf688
+            label: "Production & Visual"
+            type: string
+      - name: cms
+        label: "CMS Management"
+        type: object
+        fields:
+          - name: f2b9e4678
+            label: "CMS Management"
+            type: string
+          - name: f7109be50
+            label: "Hands-on experience managing content across enterpri..."
+            type: text
+          - name: f8412add1
+            label: "Building content operations from the ground up"
+            type: text
+          - name: f7823a580
+            label: "Maintained 21 websites at DaVita.com across a comple..."
+            type: text
+          - name: fd8fdbd30
+            label: "Built content operations frameworks from the ground ..."
+            type: text
+          - name: fa8d4dbe2
+            label: "Managed stakeholder relationships and coordinated cr..."
+            type: text
+          - name: f9b5efef2
+            label: "Improved turnaround on quick-request updates by esta..."
+            type: text
+          - name: fb34de5b4
+            label: "HRCA web page overview"
+            type: string
+          - name: fe4140b55
+            label: "Technical & Operations"
+            type: string
+          - name: f3a7bc245
+            label: "Web Production"
+            type: string
+      - name: email
+        label: "Email Marketing"
+        type: object
+        fields:
+          - name: f6e113fb4
+            label: "Email Marketing"
+            type: string
+          - name: f4e567805
+            label: "Designed and deployed email campaigns through Consta..."
+            type: text
+          - name: fc49dbf05
+            label: "Promotional email for Music Together and Piano Pals ..."
+            type: text
+          - name: fc669d6e9
+            label: "Civic engagement email for the 2025 Delegate Electio..."
+            type: text
+          - name: fcf948ca3
+            label: "Communications"
+            type: string
+          - name: fb43d4ecb
+            label: "Email Campaign — HRCA Arts"
+            type: string
+          - name: fa67e9262
+            label: "Email Campaign — HRCA"
+            type: string
+      - name: campaign
+        label: "Campaign Spotlight"
+        type: object
+        fields:
+          - name: f37af4e08
+            label: "Highlands Ranch Beer Festival"
+            type: string
+          - name: f3e949e15
+            label: "An integrated multi-channel campaign spanning email,..."
+            type: text
+          - name: f2c39d042
+            label: "Early promotions launched through e-blasts and socia..."
+            type: text
+          - name: f1ea0d9cd
+            label: "Email e-blasts to HRCA subscriber list"
+            type: string
+          - name: fbdbcc688
+            label: "Organic social media content across platforms"
+            type: string
+          - name: faf43f31b
+            label: "Paid digital advertising"
+            type: string
+          - name: ffa4691ac
+            label: "Website traffic -- Highlands Ranch Beer Festival (Ma..."
+            type: text
+          - name: f7892c793
+            label: "Campaign Spotlight"
+            type: string
+          - name: f4d851f03
+            label: "150%+"
+            type: string
+          - name: f6f5df434
+            label: "Web Traffic Increase"
+            type: string
+          - name: fe3de2f94
+            label: "1,000+"
+            type: string
+          - name: f8113f76a
+            label: "Clicks Generated"
+            type: string
+      - name: resume_cta
+        label: "Get In Touch"
+        type: object
+        fields:
+          - name: f9b7fe5d5
+            label: "Want to work together?"
+            type: string
+          - name: faf6d588f
+            label: "Download my resume or reach out directly. I'm always..."
+            type: text
+          - name: f6d5d57d9
+            label: "Get In Touch"
+            type: string
+      - name: footer
+        label: "Footer"
+        type: object
+        fields:
+          - name: f46a4607c
+            label: "Jen — Marketing & Communications Specialist"
+            type: string
