@@ -276,14 +276,33 @@ content:
           - name: f9b5efef2
             label: "Improved turnaround on quick-request updates by esta..."
             type: text
-          - name: fb34de5b4
-            label: "HRCA web page overview"
-            type: string
           - name: fe4140b55
             label: "Technical & Operations"
             type: string
-          - name: f3a7bc245
-            label: "Web Production"
+      - name: web_design
+        label: "Web Design"
+        type: object
+        fields:
+          - name: f2ce0b063
+            label: "Web Design"
+            type: string
+          - name: f43a91b57
+            label: "Pages I designed and built end to end, including the..."
+            type: text
+          - name: fd4e23816
+            label: "HRCA careers page"
+            type: string
+          - name: f1df93830
+            label: "Our site search and internal search data kept surfac..."
+            type: text
+          - name: fcd597af5
+            label: "Summer Concert Series web page"
+            type: string
+          - name: f8c913e8e
+            label: "Design & Build"
+            type: string
+          - name: f2ce0b063_2
+            label: "Web Design"
             type: string
       - name: email
         label: "Email Marketing"
