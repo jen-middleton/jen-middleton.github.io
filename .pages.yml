@@ -12,8 +12,8 @@ content:
         label: "Hero (top of page)"
         type: object
         fields:
-          - name: f0000737e
-            label: "A marketing and communications specialist for health..."
+          - name: f9e2591ba
+            label: "A marketing and communications specialist for missio..."
             type: text
           - name: ffb3b76e1
             label: "Marketing & Communications Specialist"
@@ -52,8 +52,8 @@ content:
         label: "About"
         type: object
         fields:
-          - name: f003d386b
-            label: "Strategy-led communications for mission-driven work"
+          - name: f5e8147a3
+            label: "Strategy-led marketing and communications for missio..."
             type: text
           - name: f2af2c09e
             label: "Hi, I'm Jen, a marketing and communications speciali..."
@@ -61,11 +61,14 @@ content:
           - name: f3f88fccd
             label: "Film & Media Studies background (Colorado College) a..."
             type: text
-          - name: f2d4e4090
-            label: "Specializing in healthcare and nonprofit communicati..."
+          - name: f955faef5
+            label: "Specializing in mission-driven communications, where..."
             type: text
           - name: f3fae5ac5
             label: "Currently at DaVita Kidney Care, working across SEO/..."
+            type: text
+          - name: f620d8884
+            label: "Own and manage relationships with external agencies ..."
             type: text
           - name: f2c84b526
             label: "Outside of work: Colorado hiker, ocean diver, thrift..."
@@ -97,6 +100,9 @@ content:
             type: string
           - name: f5f94ceb8
             label: "Content audits & performance tracking"
+            type: string
+          - name: ffe96e7d8
+            label: "Managed SEO agency & contractor relationships"
             type: string
           - name: f68b21b16
             label: "Google Search Console — DaVita Kidney Care"
