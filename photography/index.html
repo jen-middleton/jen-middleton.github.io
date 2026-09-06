@@ -59,6 +59,13 @@
   .contact h2 em{font-style:italic;color:var(--accent)}
   .contact p{color:var(--muted);margin:0 0 30px}
 
+  .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;max-width:1000px;margin:0 auto}
+  .price-card{text-align:center;padding:6px 10px}
+  .price-card h3{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:1.5rem;margin:0 0 8px}
+  .price-card .amt{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--accent);font-size:1.7rem;margin-bottom:16px}
+  .price-card p{color:#5b554c;font-size:.94rem;margin:0}
+  .price-note{text-align:center;color:var(--muted);max-width:56ch;margin:48px auto 0;font-size:.94rem;line-height:1.7}
+  @media(max-width:760px){.price-grid{grid-template-columns:1fr;gap:34px}}
   footer{text-align:center;padding:46px 32px 60px;color:var(--muted);font-size:.75rem;letter-spacing:.06em}
   footer .fbrand{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--ink);letter-spacing:.02em;margin-bottom:10px}
   footer a{color:var(--muted);letter-spacing:.18em;text-transform:uppercase;font-size:.7rem}
@@ -73,6 +80,7 @@
     <div class="navlinks">
       <a href="#couples">Couples &amp; Weddings</a>
       <a href="#portraits">Portraits</a>
+      <a href="#pricing">Pricing</a>
       <a href="#about">About</a>
       <a href="#contact">Inquire</a>
     </div>
@@ -143,6 +151,33 @@
         <figure><img src="assets/portrait-09.jpg" alt="Portrait outdoors"></figure>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="sec" id="pricing">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">Investment</div>
+      <h2>Simple, honest pricing</h2>
+    </div>
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Sessions</h3>
+        <div class="amt">from $150</div>
+        <p>Couples, engagement, or portrait. About an hour, one location, your edited gallery to keep. Film and digital.</p>
+      </div>
+      <div class="price-card">
+        <h3>Elopements</h3>
+        <div class="amt">from $900</div>
+        <p>A few hours of coverage for an intimate day, wherever you say I do. Full edited gallery and print release.</p>
+      </div>
+      <div class="price-card">
+        <h3>Weddings</h3>
+        <div class="amt">from $2,000</div>
+        <p>Full-day coverage of everything that matters, edited online gallery, film and digital, print release.</p>
+      </div>
+    </div>
+    <p class="price-note">Introductory pricing while I take on a limited number of couples this season, so it is a lovely time to book. Every session and wedding is customized, so reach out and we will build something that fits your day and your budget.</p>
   </div>
 </section>
 
