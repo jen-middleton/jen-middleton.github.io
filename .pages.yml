@@ -223,8 +223,26 @@ content:
           - name: fe91fcd22
             label: "An Inspirational Story of Hope: Joe Kovarik's Heart ..."
             type: text
-          - name: f0e91d246
-            label: "Will Doctors Still Save My Life If I'm a Registered ..."
+          - name: fda6bb049
+            label: "A heart recipient's story told in his own words. Dir..."
+            type: text
+          - name: f579e850a
+            label: "How Kidney Donation Gave This Father & Son More Time..."
+            type: text
+          - name: fd6a1bd38
+            label: "Timed to Father's Day and anchored by a name readers..."
+            type: text
+          - name: f29fa56b9
+            label: "Musical Memorials: Delve into a Unique Spotify Playlist"
+            type: text
+          - name: fcc81d18c
+            label: "Campaign content built around a playlist donor famil..."
+            type: text
+          - name: fd81041b4
+            label: "New Year's Resolution Ideas"
+            type: string
+          - name: fcc2c3713
+            label: "Takes a popular seasonal search and turns it into a ..."
             type: text
           - name: f7160d434
             label: "Screenwrecked — Pop Culture Blog"
@@ -239,6 +257,12 @@ content:
             label: "Donor Alliance"
             type: string
           - name: f9d11b9a7_2
+            label: "Donor Alliance"
+            type: string
+          - name: f9d11b9a7_3
+            label: "Donor Alliance"
+            type: string
+          - name: f9d11b9a7_4
             label: "Donor Alliance"
             type: string
           - name: f0cd2d3af
