@@ -278,6 +278,9 @@ content:
           - name: f529adb91
             label: "I directed, scripted, and filmed these productions f..."
             type: text
+          - name: f7d2ac626
+            label: "See more of my photography at jenleighphotography.com"
+            type: text
           - name: fb59bf688
             label: "Production & Visual"
             type: string
