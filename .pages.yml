@@ -244,12 +244,6 @@ content:
           - name: fcc2c3713
             label: "Takes a popular seasonal search and turns it into a ..."
             type: text
-          - name: f7160d434
-            label: "Screenwrecked — Pop Culture Blog"
-            type: string
-          - name: f6aec67fc
-            label: "A self-built pop culture website created to develop ..."
-            type: text
           - name: fc463d5d5
             label: "Writing & Storytelling"
             type: string
@@ -264,9 +258,6 @@ content:
             type: string
           - name: f9d11b9a7_4
             label: "Donor Alliance"
-            type: string
-          - name: f0cd2d3af
-            label: "Passion Project"
             type: string
       - name: video
         label: "Video & Photography"
